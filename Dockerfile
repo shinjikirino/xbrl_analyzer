@@ -14,3 +14,5 @@ RUN apt-get install -y vim less
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
 RUN pip install --upgrade pytest
+RUN pip install --upgrade requests
+RUN pip install --upgrade pandas
